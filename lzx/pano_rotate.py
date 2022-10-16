@@ -226,6 +226,7 @@ def _test_pano_rotate_image():
     # im = get_visual_image(im.copy(), uvwh, is_boxstd=True, plt_xyxy=True)
     im = transforms.ToTensor()(im)
     np_uv = torch.tensor([0.3, -0.4]) * math.pi
+    np_uv = torch.tensor([1, -0.0]) * math.pi
     im3, xyxy_boxes = pano_rotate_image(im[None].clone(), np_uv, [uvwh])
     xyxy_boxes = xyxy_boxes[0][0].numpy()
     im3 = np.ascontiguousarray((255 * im3[0]).permute(1,2,0).numpy().astype(np.uint8))

@@ -51,6 +51,14 @@ def stb_adj_info(shape_wh, patch_size, ratio_v=(0.0, 1.0), length=None):
 
 
 def get_v_all_patches(tc_im, patch_size, ratio_v=(0.0, 1.0), length=None, force_div=True):
+    """
+    @param tc_im: torch.Tensor image
+    @param patch_size: patch size
+    @param ratio_v: min/max of v coordinate
+    @param length: length of u in image scale
+    @param force_div:
+    @return:
+    """
     if isinstance(ratio_v, list) and len(ratio_v) == 1:
         ratio_v = ratio_v[0]
     if isinstance(ratio_v, torch.Tensor):

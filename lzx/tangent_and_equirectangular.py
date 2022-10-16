@@ -313,9 +313,9 @@ def _debug():
 
 
 if __name__=='__main__':
-    _test_true_tangent_xy2equirectangular_uvwh()
+    # _test_true_tangent_xy2equirectangular_uvwh()
     # _test_build_equirectangular_uvwh2tangent_xy_dict()
     # _test_tangent_xy2equirectangular_uv()
-    # _test_equirectangular_uv2tangent_xy()
+    _test_equirectangular_uv2tangent_xy()
     # _debug()
 
