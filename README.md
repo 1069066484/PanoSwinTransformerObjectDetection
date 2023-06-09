@@ -8,4 +8,4 @@
  But you can check [mmdet/models/backbones/simple_panoswin_transformer.py](https://github.com/1069066484/PanoSwinTransformerObjectDetection/blob/main/mmdet/models/backbones/simple_panoswin_transformer.py) for the main code.
 
 
-![A figure that might help understand the implementation][https://github.com/1069066484/PanoSwinTransformerObjectDetection/blob/main/demo/panoswin_class_relation.jpg]
+![A figure that might help understand the implementation](https://github.com/1069066484/PanoSwinTransformerObjectDetection/blob/main/demo/panoswin_class_relation.jpg)
